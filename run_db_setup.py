@@ -1,7 +1,4 @@
-from src.database.setup_db import (
-    criar_tabela_filmes,
-    popular_filmes_exemplo,
-)
+from src.database.setup_db import criar_tabela_filmes, popular_filmes_exemplo
 
 if __name__ == "__main__":
     print("Iniciando configuração do banco de dados...")
