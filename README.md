@@ -84,6 +84,7 @@ desafio_chatbot_filmes/
 │   ├── init.py                        # Marca 'tests' como um pacote.
 │   └── test_chatbot_core.py               # Testes para as funções essenciais do chatbot.
 ├── chatbot_answers/                       # Imagens de exemplos de interação do chatbot.
+├── prototype_outputs/                     # Imagens da saida do protótipo NLP.
 ├── .env                                   # Variáveis de ambiente (ex: GOOGLE_API_KEY - não versionado).
 ├── .gitignore                             # Lista de arquivos/pastas a serem ignorados pelo Git.
 ├── requirements.txt                       # Lista de dependências Python do projeto.
