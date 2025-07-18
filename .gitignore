@@ -1,0 +1,57 @@
+# Python
+# Arquivos de ambiente virtual
+.venv/
+venv/
+env/
+/bin/
+/include/
+/lib/
+/share/
+/Scripts/
+/Library/
+
+# Arquivos de bytecode Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/ # Cache do pytest (se for usar no futuro)
+
+# Arquivos de build/distribuição
+dist/
+build/
+*.egg
+*.whl
+
+# Arquivos de log
+*.log
+logs/
+
+# Arquivos de banco de dados
+*.sqlite3 # Para SQLite
+# O nome específico do seu banco de dados
+filmes.db
+
+# Variáveis de ambiente (locais e sensíveis)
+.env
+.flaskenv # Se usar Flask no futuro
+
+# Arquivos gerados por editores/IDE's
+*~
+*.bak
+*.swp
+.idea/ # Para PyCharm/IntelliJ
+# Configurações específicas do VS Code (opcional, mas geralmente não commitado)
+.vscode/
+
+# Arquivos de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos de uploads de usuário ou media (se for um projeto web)
+media/
+uploads/
+
+# Pastas de dados que contêm arquivos gerados ou grandes (se não forem parte do código fonte)
+# Já que 'filmes.db' e 'pt.txt' estão em 'data/' e são grandes/gerados.
+data/
