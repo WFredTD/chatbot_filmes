@@ -2,7 +2,6 @@ import sqlite3
 import unittest
 from unittest.mock import patch
 
-
 # Importa as funções que você vai testar dos módulos.
 # O caminho aqui será relativo à raiz do projeto quando rodar o pytest
 from src.database.db_utils import consultar_filme_no_bd

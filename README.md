@@ -19,7 +19,7 @@ O desafio proposto consistia em criar um "modelo" de chatbot com as seguintes ca
 * Consultar uma base de dados SQL para buscar informações factuais.
 * Combinar os dois de forma coerente: respostas que parecem saídas de um filme, mas com fatos reais por trás.
 
-Recursos sugeridos incluíam Python (com PyTorch/TensorFlow), `sqlite3` ou `SQLAlchemy`, Embeddings, Tokenizers e o dataset `pt.txt` do OpenSubtitles. O prazo de entrega era desafiador.
+Recursos sugeridos incluíam Python (com PyTorch/TensorFlow), `sqlite3` ou `SQLAlchemy`, Embeddings, Tokenizers e o dataset `pt.txt`  do <a href="https://opus.nlpl.eu/OpenSubtitles/en&pt-BR/v2024/OpenSubtitles#download" target="_blank">OpenSubtitles</a>. O prazo de entrega era desafiador.
 
 ---
 ---
@@ -257,6 +257,31 @@ Para demonstrar as capacidades do Chatbot Cinéfilo Inteligente, apresento abaix
 ---
 ---
 
+## 📊 Demonstração dos Protótipos de IA
+
+Além do chatbot conversacional, o projeto inclui protótipos que demonstram as fases iniciais de construção e compreensão de modelos de Deep Learning para NLP. Abaixo, são apresentadas as saídas desses protótipos.
+
+---
+
+### Protótipo 1: Pré-processamento de Dados (`data_preprocessing.py`)
+
+Este script simula a fase de preparação de um dataset de texto (`pt.txt`) para um pipeline de treinamento de Machine Learning.
+
+* **Saída da Execução:**
+    ![Saída do Pré-processamento de Dados](prototype_outputs/data_preprocessing_output.png) * **O que demonstra:** A capacidade de carregar, tokenizar e limpar dados textuais brutos, um passo fundamental para qualquer projeto de NLP.
+
+---
+
+### Protótipo 2: Arquitetura de Modelo de Deep Learning (`nlp_model_arch.py`)
+
+Este script ilustra a estrutura básica de uma rede neural em PyTorch e como os dados (tokens) seriam convertidos em representações numéricas (embeddings) e passados pelo modelo.
+
+* **Saída da Execução:**
+    ![Saída da Arquitetura do Modelo DL](prototype_outputs/nlp_model_arch_output.png) * **O que demonstra:** A compreensão da arquitetura de um modelo de Deep Learning e o fluxo de dados em uma passada forward, conceitualizando como a IA seria construída.
+
+---
+---
+
 ## ⚙️ Como Configurar e Executar o Projeto
 
 Siga os passos abaixo para configurar o ambiente e interagir com o Chatbot Cinéfilo Inteligente.
@@ -295,6 +320,7 @@ Siga os passos abaixo para configurar o ambiente e interagir com o Chatbot Ciné
     ```
 5.  **Baixe os Recursos do NLTK:**
     * O `nltk` precisa de dados específicos para tokenização em português.
+    * **Certifique-se de que o arquivo `pt.txt` (parte do dataset OpenSubtitles) esteja na pasta `data/` dentro do seu projeto.** Ele pode ser baixado aqui: <a href="https://opus.nlpl.eu/OpenSubtitles/en&pt-BR/v2024/OpenSubtitles#download" target="_blank">OpenSubtitles</a>
     * Abra o interpretador Python no seu terminal (digite `python` ou `python3`).
     * Dentro do interpretador, digite:
         ```python
