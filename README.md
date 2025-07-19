@@ -205,7 +205,8 @@ Para demonstrar as capacidades do Chatbot Cinéfilo Inteligente, apresento abaix
 ### Exemplo 1: Mensagem de Boas-Vindas
 
 * **Captura da Resposta (Print):**
-    ![Interação - Mensagem de Boas-Vindas](chatbot_answers/chatbot_filmes_1.png) * **O que este exemplo demonstra:** A saudação inicial do chatbot, estabelecendo a persona cinéfila e o estilo de diálogo desde o primeiro momento.
+    ![Interação - Mensagem de Boas-Vindas](chatbot_answers/chatbot_filmes_1.png)
+* **O que este exemplo demonstra:** A saudação inicial do chatbot, estabelecendo a persona cinéfila e o estilo de diálogo desde o primeiro momento.
 
 ---
 
@@ -213,7 +214,8 @@ Para demonstrar as capacidades do Chatbot Cinéfilo Inteligente, apresento abaix
 
 * **Sua Pergunta:** `Quem dirigiu Matrix?`
 * **Captura da Resposta (Print):**
-    ![Interação - Quem dirigiu Matrix](chatbot_answers/chatbot_filmes_2.png) * **O que este exemplo demonstra:** O agente identificou a intenção factual e o título "Matrix", consultou o banco de dados para obter o diretor e o ano, e a LLM gerou uma resposta altamente estilizada, incorporando as informações factuais e o protagonista.
+    ![Interação - Quem dirigiu Matrix](chatbot_answers/chatbot_filmes_2.png)
+* **O que este exemplo demonstra:** O agente identificou a intenção factual e o título "Matrix", consultou o banco de dados para obter o diretor e o ano, e a LLM gerou uma resposta altamente estilizada, incorporando as informações factuais e o protagonista.
 
 ---
 
@@ -221,7 +223,8 @@ Para demonstrar as capacidades do Chatbot Cinéfilo Inteligente, apresento abaix
 
 * **Sua Pergunta:** `Qual a data de lançamento de Avatar 2?`
 * **Captura da Resposta (Print):**
-    ![Interação - Lançamento Avatar 2](chatbot_answers/chatbot_filmes_5.png) * **O que este exemplo demonstra:** O agente tentou consultar o DB (não encontrou "Avatar 2"), e a LLM usou seu conhecimento geral para fornecer a informação e manter o estilo, provando a capacidade de fallback.
+    ![Interação - Lançamento Avatar 2](chatbot_answers/chatbot_filmes_5.png)
+* **O que este exemplo demonstra:** O agente tentou consultar o DB (não encontrou "Avatar 2"), e a LLM usou seu conhecimento geral para fornecer a informação e manter o estilo, provando a capacidade de fallback.
 
 ---
 
@@ -229,7 +232,8 @@ Para demonstrar as capacidades do Chatbot Cinéfilo Inteligente, apresento abaix
 
 * **Sua Pergunta:** `Me resuma O Senhor dos Anéis.`
 * **Captura da Resposta (Print):**
-    ![Interação - Resumo Senhor dos Anéis](chatbot_answers/chatbot_filmes_7.png) * **O que este exemplo demonstra:** O agente identificou uma intenção de resumo/conhecimento geral. A LLM demonstrou sua capacidade de gerar texto longo e coerente, combinando o conhecimento factual com um estilo narrativo épico.
+    ![Interação - Resumo Senhor dos Anéis](chatbot_answers/chatbot_filmes_7.png)
+* **O que este exemplo demonstra:** O agente identificou uma intenção de resumo/conhecimento geral. A LLM demonstrou sua capacidade de gerar texto longo e coerente, combinando o conhecimento factual com um estilo narrativo épico.
 
 ---
 
@@ -237,7 +241,8 @@ Para demonstrar as capacidades do Chatbot Cinéfilo Inteligente, apresento abaix
 
 * **Sua Pergunta:** `Fale sobre o personagem Darth Vader.`
 * **Captura da Resposta (Print):**
-    ![Interação - Personagem Darth Vader](chatbot_answers/chatbot_filmes_8.png) * **O que este exemplo demonstra:** A LLM brilhou na descrição de um personagem, mostrando sua habilidade em gerar texto descritivo e profundo, mantendo a persona e o estilo cinematográfico.
+    ![Interação - Personagem Darth Vader](chatbot_answers/chatbot_filmes_8.png)
+* **O que este exemplo demonstra:** A LLM brilhou na descrição de um personagem, mostrando sua habilidade em gerar texto descritivo e profundo, mantendo a persona e o estilo cinematográfico.
 
 ---
 
@@ -245,7 +250,8 @@ Para demonstrar as capacidades do Chatbot Cinéfilo Inteligente, apresento abaix
 
 * **Sua Pergunta:** `Qual a capital do Brasil?`
 * **Captura da Resposta (Print):**
-    ![Interação - Capital do Brasil](chatbot_answers/chatbot_filmes_11.png) * **O que este exemplo demonstra:** O agente identificou uma pergunta fora do escopo de filmes e a LLM demonstrou a capacidade de redirecionar o usuário de volta ao tema principal de forma educada e estilizada.
+    ![Interação - Capital do Brasil](chatbot_answers/chatbot_filmes_11.png)
+* **O que este exemplo demonstra:** O agente identificou uma pergunta fora do escopo de filmes e a LLM demonstrou a capacidade de redirecionar o usuário de volta ao tema principal de forma educada e estilizada.
 
 ---
 
@@ -253,7 +259,8 @@ Para demonstrar as capacidades do Chatbot Cinéfilo Inteligente, apresento abaix
 
 * **Sua Pergunta:** `preciso ir, até logo!`
 * **Captura da Resposta (Print):**
-    ![Interação - Encerrando a Sessão](chatbot_answers/chatbot_filmes_12.png) * **O que este exemplo demonstra:** O agente identificou a intenção de saída e a LLM gerou uma mensagem de despedida estilizada, encerrando a interação de forma elegante.
+    ![Interação - Encerrando a Sessão](chatbot_answers/chatbot_filmes_12.png)
+* **O que este exemplo demonstra:** O agente identificou a intenção de saída e a LLM gerou uma mensagem de despedida estilizada, encerrando a interação de forma elegante.
 
 ---
 ---
@@ -269,7 +276,8 @@ Além do chatbot conversacional, o projeto inclui protótipos que demonstram as 
 Este script simula a fase de preparação de um dataset de texto (`pt.txt`) para um pipeline de treinamento de Machine Learning.
 
 * **Saída da Execução:**
-    ![Saída do Pré-processamento de Dados](prototype_outputs/data_preprocessing_output.png) * **O que demonstra:** A capacidade de carregar, tokenizar e limpar dados textuais brutos, um passo fundamental para qualquer projeto de NLP.
+    ![Saída do Pré-processamento de Dados](prototype_outputs/data_preprocessing_output.png)
+* **O que demonstra:** A capacidade de carregar, tokenizar e limpar dados textuais brutos, um passo fundamental para qualquer projeto de NLP.
 
 ---
 
@@ -278,7 +286,8 @@ Este script simula a fase de preparação de um dataset de texto (`pt.txt`) para
 Este script ilustra a estrutura básica de uma rede neural em PyTorch e como os dados (tokens) seriam convertidos em representações numéricas (embeddings) e passados pelo modelo.
 
 * **Saída da Execução:**
-    ![Saída da Arquitetura do Modelo DL](prototype_outputs/nlp_model_arch_output.png) * **O que demonstra:** A compreensão da arquitetura de um modelo de Deep Learning e o fluxo de dados em uma passada forward, conceitualizando como a IA seria construída.
+    ![Saída da Arquitetura do Modelo DL](prototype_outputs/nlp_model_arch_output.png)
+* **O que demonstra:** A compreensão da arquitetura de um modelo de Deep Learning e o fluxo de dados em uma passada forward, conceitualizando como a IA seria construída.
 
 ---
 ---
